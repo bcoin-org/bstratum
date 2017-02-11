@@ -21,7 +21,7 @@
     "node": ">= 0.11.0"
   },
   "dependencies": {
-    "bcoin": "1.0.0-alpha"
+    "bcoin": "1.0.0-beta"
   },
   "devDependencies": {
     "jsdoc": "3.4.0",
