@@ -28,8 +28,8 @@ node.stratum = new Stratum({
   node: node,
   publicHost: 'example.com',
   publicPort: 3008,
-  difficulty: 10000,
-  password: 'admin-password'
+  difficulty: 1,
+  password: 'foo'
 });
 
 node.on('error', function(err) {
