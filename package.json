@@ -1,6 +1,6 @@
 {
   "name": "bcoin-stratum",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bitcoin mining bike-shed",
   "license": "MIT",
   "repository": "git://github.com/bcoin-org/bcoin-stratum.git",
