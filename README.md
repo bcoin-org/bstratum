@@ -8,7 +8,7 @@ plugin which will run a stratum server in the same process as a bcoin fullnode.
 bcoin-stratum can be used as a bcoin plugin.
 
 ``` bash
-bcoin --plugins bcoin-stratum \
+$ bcoin --plugins bcoin-stratum \
   --stratum-host :: \
   --stratum-port 3008 \
   --stratum-public-host pool.example.com \
@@ -66,9 +66,25 @@ Copyright (c) 2017, Christopher Jeffrey (MIT License).
 
 See LICENSE for more info.
 
+---
+
 # bcoin-stratum
 
 Bcoin-stratum是一个插件，是[bcoin][bcoin]之上的一个能支持隔离见证（segwit）的stratum server。这是bcoin的一个插件，将可以和bcoin作为一个完整节点在同一个进程中运行stratum。正在开发中。
+
+## 用法
+
+``` bash
+$ bcoin --plugins bcoin-stratum \
+  --stratum-host :: \
+  --stratum-port 3008 \
+  --stratum-public-host pool.example.com \
+  --stratum-public-port 3008 \
+  --stratum-max-inbound 1000 \
+  --stratum-difficulty 8 \
+  --stratum-dynamic \
+  --stratum-password=admin-pass
+```
 
 ## 避开中间环节
 
