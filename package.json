@@ -20,19 +20,12 @@
   "engines": {
     "node": ">= 0.11.0"
   },
-  "dependencies": {
-    "bcoin": "1.0.0-beta"
-  },
   "devDependencies": {
     "jsdoc": "3.4.0",
     "jshint": "2.9.4",
     "mocha": "3.0.2"
   },
   "main": "./lib/stratum.js",
-  "preferGlobal": true,
-  "bin": {
-    "bcoin-stratum": "./bin/bcoin-stratum"
-  },
   "scripts": {
     "test": "mocha --reporter spec test/*-test.js",
     "lint": "jshint lib/ || exit 0"

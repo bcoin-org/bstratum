@@ -1,7 +1,23 @@
 # bcoin-stratum
 
-A segwit-capable stratum server on top of bcoin. This is a bcoin plugin which
-will run a stratum server in the same process as a bcoin fullnode. WIP.
+A segwit-capable stratum server on top of [bcoin][bcoin]. This is a bcoin
+plugin which will run a stratum server in the same process as a bcoin fullnode.
+
+## Usage
+
+bcoin-stratum can be used as a bcoin plugin.
+
+``` bash
+bcoin --plugins bcoin-stratum \
+  --stratum-host :: \
+  --stratum-port 3008 \
+  --stratum-public-host pool.example.com \
+  --stratum-public-port 3008 \
+  --stratum-max-inbound 1000 \
+  --stratum-difficulty 8 \
+  --stratum-dynamic \
+  --stratum-password=admin-pass
+```
 
 ## Cutting out the middleman
 
@@ -46,13 +62,13 @@ all code is your original work. `</legalese>`
 
 ## License
 
-Copyright (c) 2014-2016, Christopher Jeffrey (MIT License).
+Copyright (c) 2017, Christopher Jeffrey (MIT License).
 
 See LICENSE for more info.
 
 # bcoin-stratum
 
-Bcoin-stratum是一个插件，是bcoin之上的一个能支持隔离见证（segwit）的stratum server。这是bocin的一个插件，将可以和bcoin作为一个完整节点在同一个进程中运行stratum。正在开发中。
+Bcoin-stratum是一个插件，是[bcoin][bcoin]之上的一个能支持隔离见证（segwit）的stratum server。这是bcoin的一个插件，将可以和bcoin作为一个完整节点在同一个进程中运行stratum。正在开发中。
 
 ## 避开中间环节
 
@@ -86,6 +102,8 @@ bcoin-stratum暴露了一些自定义层接口调用，如在运行时，通过m
 
 ## 许可
 
-版权所有（C） 2014-2016, Christopher Jeffrey (MIT 许可证)。
+版权所有（C） 2017, Christopher Jeffrey (MIT 许可证)。
 
 更多的许可信息请查阅LICENSE。
+
+[bcoin]: https://github.com/bcoin-org/bcoin
