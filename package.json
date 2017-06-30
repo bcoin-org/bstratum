@@ -8,7 +8,7 @@
   "bugs": {
     "url": "https://github.com/bcoin-org/bcoin-stratum/issues"
   },
-  "author": "Christopher Jeffrey <chjjeffrey@gmail.com> (https://github.com/chjj)",
+  "author": "Christopher Jeffrey <chjjeffrey@gmail.com>",
   "keywords": [
     "bcoin",
     "bitcoin",
@@ -18,16 +18,17 @@
     "stratum"
   ],
   "engines": {
-    "node": ">= 0.11.0"
+    "node": ">=7.0.0"
+  },
+  "peerDependencies": {
+    "bcoin": ">=1.0.0-beta.12"
   },
   "devDependencies": {
-    "jsdoc": "3.4.0",
-    "jshint": "2.9.4",
-    "mocha": "3.0.2"
+    "eslint": "^4.1.0",
+    "jsdoc": "^3.4.3"
   },
   "main": "./lib/stratum.js",
   "scripts": {
-    "test": "mocha --reporter spec test/*-test.js",
-    "lint": "jshint lib/ || exit 0"
+    "lint": "eslint lib/ || exit 0"
   }
 }
