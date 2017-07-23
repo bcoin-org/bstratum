@@ -1,6 +1,6 @@
 {
   "name": "bcoin-stratum",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Bitcoin mining bike-shed",
   "license": "MIT",
   "repository": "git://github.com/bcoin-org/bcoin-stratum.git",
@@ -18,10 +18,10 @@
     "stratum"
   ],
   "engines": {
-    "node": ">=7.0.0"
+    "node": ">=7.6.0"
   },
   "peerDependencies": {
-    "bcoin": ">=1.0.0-beta.12"
+    "bcoin": ">=1.0.0-beta.13"
   },
   "devDependencies": {
     "eslint": "^4.1.0",
