@@ -7,6 +7,7 @@
   "parserOptions": {
     "ecmaVersion": 8
   },
+  "root": true,
   "rules": {
     "array-bracket-spacing": ["error", "never"],
     "arrow-parens": ["error", "as-needed", {
@@ -24,8 +25,8 @@
     "eqeqeq": ["error", "always", {
       "null": "ignore"
     }],
-    "func-name-matching": "off",
-    "indent": ["error", 2, {
+    "func-name-matching": "error",
+    "indent": ["off", 2, {
       "SwitchCase": 1,
       "CallExpression": {
         "arguments": "off"

@@ -1,14 +1,14 @@
-# bcoin-stratum
+# bstratum
 
 A segwit-capable stratum server on top of [bcoin][bcoin]. This is a bcoin
 plugin which will run a stratum server in the same process as a bcoin fullnode.
 
 ## Usage
 
-bcoin-stratum can be used as a bcoin plugin.
+bstratum can be used as a bcoin plugin.
 
 ``` bash
-$ bcoin --plugins bcoin-stratum \
+$ bcoin --plugins bstratum \
   --stratum-host :: \
   --stratum-port 3008 \
   --stratum-public-host pool.example.com \
@@ -68,7 +68,7 @@ See LICENSE for more info.
 
 ---
 
-# bcoin-stratum
+# bstratum
 
 Bcoin-stratum是一个插件，是[bcoin][bcoin]之上的一个能支持隔离见证（segwit）的stratum server。这是bcoin的一个插件，将可以和bcoin作为一个完整节点在同一个进程中运行stratum。正在开发中。
 
