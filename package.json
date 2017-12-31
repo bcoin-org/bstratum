@@ -1,6 +1,6 @@
 {
   "name": "bstratum",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Bitcoin mining bike-shed",
   "license": "MIT",
   "repository": "git://github.com/bcoin-org/bstratum.git",
@@ -21,7 +21,7 @@
     "node": ">=7.6.0"
   },
   "dependencies": {
-    "bcrypto": "~0.0.1",
+    "bcrypto": "~0.0.2",
     "bfile": "~0.0.1",
     "binet": "~0.0.1",
     "bmutex": "~0.0.1",
