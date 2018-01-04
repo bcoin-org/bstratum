@@ -21,7 +21,7 @@
     "node": ">=7.6.0"
   },
   "dependencies": {
-    "bcrypto": "~0.0.2",
+    "bcrypto": "~0.1.0",
     "bfile": "~0.0.1",
     "binet": "~0.0.1",
     "bmutex": "~0.0.1",
