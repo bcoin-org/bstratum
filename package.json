@@ -23,7 +23,7 @@
   "dependencies": {
     "bcrypto": "~0.2.0",
     "bfile": "~0.0.2",
-    "binet": "~0.1.0",
+    "binet": "~0.2.0",
     "blst": "~0.0.1",
     "bmutex": "~0.0.2",
     "btcp": "~0.0.2"
