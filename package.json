@@ -24,19 +24,19 @@
   },
   "dependencies": {
     "bcrypto": "~3.0.2",
-    "bfile": "~0.1.4",
+    "bfile": "~0.2.0",
     "binet": "~0.3.4",
     "blst": "~0.1.4",
     "bmutex": "~0.1.5",
-    "bsert": "~0.0.8",
+    "bsert": "~0.0.9",
     "btcp": "~0.1.4",
-    "buffer-map": "~0.0.5"
+    "buffer-map": "~0.0.6"
   },
   "peerDependencies": {
     "bcoin": "~1.0.2"
   },
   "devDependencies": {
-    "bmocha": "^1.0.0"
+    "bmocha": "^2.1.0"
   },
   "engines": {
     "node": ">=8.0.0"
