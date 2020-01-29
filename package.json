@@ -1,6 +1,6 @@
 {
   "name": "bstratum",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Bitcoin mining bike-shed",
   "keywords": [
     "bcoin",
@@ -23,7 +23,7 @@
     "test": "bmocha --reporter spec test/*-test.js"
   },
   "dependencies": {
-    "bcrypto": "~4.3.0",
+    "bcrypto": "~5.0.0",
     "bfile": "~0.2.1",
     "binet": "~0.3.5",
     "blst": "~0.1.5",
